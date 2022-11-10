@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  a {
+    color: white;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+  }
+}
+.footer {
+  color: white;
+  background-color: black;
+  font-size: 40px;
+}
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
